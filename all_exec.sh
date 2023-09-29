@@ -1,7 +1,5 @@
 #!/bin/sh
 
-apt install curl -y
-
 curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/init_update.sh | bash -s
 
 apt install zsh -y
