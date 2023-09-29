@@ -2,6 +2,18 @@
 
 > 계속 같은 작업을 반복하는 것이 힘들어서 만들었습니다.
 
+---
+
+### 모두 설치
+
+```sh
+    curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/all_exec.sh | bash -s
+```
+
+---
+
+### 단계적 가이드
+
 0. curl 설치
 
     ```sh
