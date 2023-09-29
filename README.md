@@ -19,7 +19,7 @@
     ```sh
     apt install zsh -y
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-    curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/zsh_custom.sh | bash -s
+    curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/zsh_custom.sh | zsh -s
     ```
 
 3. docker_install.sh -> 도커 설치
