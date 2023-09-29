@@ -7,8 +7,8 @@
 ### 모두 설치
 
 ```sh
-    apt install curl -y
-    curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/all_exec.sh | bash -s
+apt install curl -y
+curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/all_exec.sh | bash -s
 ```
 
 ---
