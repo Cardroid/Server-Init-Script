@@ -35,6 +35,7 @@ curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/all_e
     apt install zsh -y
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
     curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/zsh_custom.sh | zsh -s
+    chsh -s $(which zsh)
     exec zsh
     # Theme Prompt keyborad input: [y y y y 3 1 2 1 1 1 2 2 1 1 1 2 1 y 1 y]
     ```
