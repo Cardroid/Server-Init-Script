@@ -5,7 +5,7 @@
 0. curl 설치
 
     ```sh
-    apt install curl
+    apt install curl -y
     ```
 
 1. init_update.sh -> 저장소 미러서버 변경 및 초기 업데이트
