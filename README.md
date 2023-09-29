@@ -14,25 +14,21 @@
     curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/init_update.sh | bash -s
     ```
 
-2. zsh_init.sh -> zsh 설치, oh-my-zsh 설정
+2. zsh 설정
 
     ```sh
-    curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/zsh_init.sh | bash -s
-    ```
-
-3. zsh_custom.sh -> zsh 커스터마이징
-
-    ```sh
+    apt install zsh -y
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/zsh_custom.sh | bash -s
     ```
 
-4. docker_install.sh -> 도커 설치
+3. docker_install.sh -> 도커 설치
 
     ```sh
     curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/docker_install.sh | bash -s
     ```
 
-5. korean_setup.sh -> 한글 셋업
+4. korean_setup.sh -> 한글 셋업
 
     ```sh
     curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/korean_setup.sh | bash -s
