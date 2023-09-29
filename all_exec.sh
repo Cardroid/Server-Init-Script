@@ -11,8 +11,9 @@ curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/docke
 curl -s https://raw.githubusercontent.com/Cardroid/Server-Init-Script/main/korean_setup.sh | bash -s
 
 
-zsh
 echo "Theme Prompt keyborad input: [y y y y 3 1 2 1 1 1 2 2 1 1 1 2 1 y 1 y]"
 echo ""
 echo 'press [ENTER] to continue...'
-read _
+read continue
+
+exec zsh
